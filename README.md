@@ -3,6 +3,8 @@
 This a minimalist Cursor setup to make Cursor feel like Neovim. This is also uses my neovim distro called [Macsimus](https://github.com/sansyrox/macsimus) as the inspiration for the colorscheme and theme inspiration.
 
 ## Screenshots
+![Screenshot 2024-09-05 at 20 14 53 (1)](https://github.com/user-attachments/assets/203d2873-b9e4-4419-8642-8ec7057e314d)
+
 
 ## Plan
 
