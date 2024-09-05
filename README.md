@@ -157,7 +157,7 @@ This table shows the current keybindings, editable in "keybindings.json".  <deta
 
 ## Credits
 
-This config was as I was unable to config [avante.nvim](https://github.com/yetone/avante.nvim) in [Macsimus](https://github.com/sansyrox/macsimus). Then I saw [EliVim-VSCode](https://github.com/EliTheSurfer/EliVim-VSCode) and I was like *"Why not just use Cursor instead of Cursor+Macsimus?"*
+This config was made as I was unable to config [avante.nvim](https://github.com/yetone/avante.nvim) in [Macsimus](https://github.com/sansyrox/macsimus). Then I saw [EliVim-VSCode](https://github.com/EliTheSurfer/EliVim-VSCode) and I was like *"Why not just use Cursor instead of Cursor+Macsimus?"*
 
 Shoutout to [EliTheSurfer](https://github.com/EliTheSurfer) for [EliVim-VSCode](https://github.com/EliTheSurfer/EliVim-VSCode) .
 
