@@ -2,6 +2,8 @@
 
 This a minimalist Cursor setup to make Cursor feel like Neovim. This is also uses my neovim distro called [Macsimus](https://github.com/sansyrox/macsimus) as the inspiration for the colorscheme and theme inspiration.
 
+## Screenshots
+
 ## Plan
 
 1. [Prerequisites](#prerequisites)
@@ -158,5 +160,6 @@ This config was as I was unable to config [avante.nvim](https://github.com/yeton
 Shoutout to [EliTheSurfer](https://github.com/EliTheSurfer) for [EliVim-VSCode](https://github.com/EliTheSurfer/EliVim-VSCode) .
 
 ### Contributing
-If you have any suggestions or improvements, feel free to open an issue or a pull request.
+If you have any suggestions or improvements, feel free to open an issue or a pull request. Or feel free to open a Pull Request on [Macsimus](https://github.com/sansyrox/macsimus) to add support for [avante.nvim](https://github.com/yetone/avante.nvim).
+
 Note that I am currently using Mac OS, so improvements for the documentation on other OSes are more than welcome.
