@@ -1,0 +1,1089 @@
+{
+  "editor.fontLigatures": true,
+  "terminal.integrated.fontFamily": "FiraCode Nerd Font",
+  "editor.fontFamily": "Jetbrains Mono",
+  "git.autofetch": true,
+  "editor.tabSize": 2,
+  "explorer.confirmDelete": false,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "explorer.confirmDragAndDrop": false,
+  "editor.inlineSuggest.enabled": true,
+  "terminal.integrated.gpuAcceleration": "on",
+  "zenMode.hideLineNumbers": false,
+  "yaml.customTags": [
+    "!And",
+    "!And sequence",
+    "!If",
+    "!If sequence",
+    "!Not",
+    "!Not sequence",
+    "!Equals",
+    "!Equals sequence",
+    "!Or",
+    "!Or sequence",
+    "!FindInMap",
+    "!FindInMap sequence",
+    "!Base64",
+    "!Join",
+    "!Join sequence",
+    "!Cidr",
+    "!Ref",
+    "!Sub",
+    "!Sub sequence",
+    "!GetAtt",
+    "!GetAZs",
+    "!ImportValue",
+    "!ImportValue sequence",
+    "!Select",
+    "!Select sequence",
+    "!Split",
+    "!Split sequence"
+  ],
+  "json.schemas": [],
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit"
+  },
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "[typescript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "editor.accessibilitySupport": "off",
+  "projectManager.git.baseFolders": [],
+  "goToTest.specFilePatterns": [
+    "{f}.spec{e}",
+    "{f}.test{e}",
+    "{f}-spec{e}",
+    "{f}-test{e}",
+    "{f}_spec{e}",
+    "{f}_test{e}",
+    "{f}Tests{e}",
+    "{f}tests{e}",
+    "{f}Tests",
+    "{f}Test"
+  ],
+  "wallpaper-setting.filePath": "file://${userHome}/Downloads/cursrot.gif",
+  "wallpaper-setting.opacity": 0.9,
+  "runCurrentTest.run": "npm run test -r ${relativeTestPath} -- -t \"${testName}\"  --reporter default",
+  "runCurrentTest.runAndUpdateSnapshots": "npm run test ${relativeTestPath}  --reporter default",
+  "workbench.startupEditor": "welcomePage",
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.scrollbar.vertical": "hidden",
+  "editor.overviewRulerBorder": false,
+  "gitlens.integrations.enabled": true,
+  "gitlens.remotes": [
+    {
+      "domain": "gitlab.dnm.radiofrance.fr",
+      "type": "GitLab"
+    }
+  ],
+  "goToTest.testFolder": "test/unit/",
+  "goToTest.srcFolder": "source",
+  "goToTest.pathType": "absolute",
+  "git.terminalGitEditor": true,
+  "npm.keybindingsChangedWarningShown": true,
+  "vitest.include": ["test/unit/**"],
+  "runInTerminal.clearBeforeRun": true,
+  "runInTerminal.commands": [
+    {
+      "key": "ctrl+e",
+      "command": "runInTerminal.run",
+      "args": {
+        "cmd": "npx vitest",
+        "match": "\\.ts$",
+        "name": "s"
+      }
+    }
+  ],
+  "vitest.showFailMessages": true,
+  "vitest.enable": true,
+  "testing.autoRun.mode": "rerun",
+  "wallaby.codeLensFeature.runTest": true,
+  "errorLens.statusBarIconsEnabled": true,
+  "errorLens.statusBarMessageEnabled": true,
+  "errorLens.statusBarMessageTemplate": "$message",
+  "vitest.commandLine": "npm run test",
+  "vim.commandLineModeKeyBindings": [
+    {
+      "before": [":"],
+      "commands": ["extension.GoToAnything"],
+      "silent": false
+    }
+  ],
+  "vim.sneak": true,
+  "editor.stickyScroll.enabled": true,
+  "errorLens.excludePatterns": [
+    "[\"node_modules\", \"**/node_modules\"]",
+    "\"node_modules\"",
+    "node_modules",
+    " [\"**/*.{js}\"]",
+    "**/node_modules"
+  ],
+  "files.exclude": {
+    "**/node_modules": true
+  },
+  "editor.codeLens": false,
+  "editor.lineNumbers": "relative",
+  "errorLens.enabledDiagnosticLevels": ["error", "warning"],
+  "errorLens.severityText": ["ERROR", "WARNING", "HINT", "ERROR"],
+  "errorLens.light": {},
+  "totalTypeScript.hiddenTips": [
+    "ts-object-type",
+    "union-type",
+    "basic-types",
+    "passing-generics-to-types",
+    "function-return-type",
+    "typing-function-parameters"
+  ],
+  "update.mode": "start",
+  "window.title": "",
+  "terminal.integrated.enableMultiLinePasteWarning": "auto",
+  "terminal.explorerKind": "integrated",
+  "debug.terminal.clearBeforeReusing": true,
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "zenMode.fullScreen": false,
+  "errorLens.messageTemplate": "$message - $source",
+  "javascript.suggest.names": false,
+  "eslint.lintTask.options": "npm run lint",
+  "zenMode.centerLayout": false,
+  "workbench.editor.limit.enabled": true,
+  "workbench.editor.limit.value": 3,
+  "workbench.editor.limit.excludeDirty": true,
+  "workbench.editor.pinnedTabSizing": "compact",
+  "workbench.editor.tabSizing": "shrink",
+  "workbench.editor.highlightModifiedTabs": true,
+  "vim.easymotion": true,
+  "vim.leader": "space",
+  "touchBar.foldAll": true,
+  "touchBar.copyLinesDownAction": false,
+  "touchBar.extensions": false,
+  "touchBar.rename": false,
+  "touchBar.terminal": true,
+  "terminal.integrated.env.osx": {
+    "FIG_NEW_SESSION": "1"
+  },
+  "autoHide.hideSideBarsOnDebug": false,
+  "autoHide.hidePanelOnDebug": false,
+  "apc.electron": {
+    "transparent": true,
+    "opacity": 0.87,
+    "backgroundColor": "#00000000",
+    "frame": false,
+    "vibrancy": "ultra-dark",
+    "visualEffectState": "active"
+  },
+  "apc.stylesheet": {
+    ".inline-tabs-placeholder": "display: none !important;",
+    ".monaco-hover": "border: 1px solid #007ACC !important;",
+    ".tree": "border: 1px solid #007ACC !important;",
+    ".quick-input-widget": {
+      "width": "900px !important",
+      "left": "41% !important",
+      "top": "250px !important",
+      "padding": "15px !important",
+      "background-color": "rgb(30, 30, 30) !important",
+      "border-radius": "10px !important",
+      "border": "1px solid #007ACC !important"
+    },
+    ".quick-input-widget .quick-input-header": "padding:0px!important;margin-bottom:10px;",
+    ".quick-input-widget .monaco-inputbox": {
+      "padding": "10px !important",
+      "border-radius": "5px!important"
+    },
+    ".quick-input-widget .monaco-list-rows": "top: 0 !important;max-height:670px;min-height:300px;",
+    ".quick-input-widget .monaco-list-row": "position:static!important;border-bottom: 1px solid #333942;padding:5px!important;height:auto!important;",
+    ".quick-input-widget .quick-input-list-entry": "position:relative;padding:0 5px 0px 15px;",
+    ".quick-input-widget .quick-input-list-entry .codicon[class*=codicon-]": "font-size:12px;",
+    ".quick-input-widget .quick-input-list .quick-input-list-entry.quick-input-list-separator-border": "border-top-width:0px!important;",
+    ".monaco-editor .cursor": "background: linear-gradient(to bottom, #00FF00, #00FF00) !important;  color: #161616 !important",
+    ".title-actions": "display: none !important",
+    ".quick-input-widget.show-file-icons, .editor-widget.find-widget": "box-shadow: none !important",
+    ".filematch .monaco-icon-label:before, .custom-list-row.results .monaco-list-row .monaco-icon-label:before": "background-position: 0 bottom !important",
+    ".filematch .monaco-count-badge": "padding: 5px 6px 0 6px !important",
+    ".sidebar .title-label": "padding: 0 !important",
+    ".monaco-workbench .monaco-list:not(.element-focused):focus:before": "outline: none !important",
+    ".sidebar": "border: none !important",
+    ".quick-input-list-row div": "display: flex !important; align-items: center !important",
+    ".panel .composite.title": "visibility: hidden !important",
+    ".title.show-file-icons .label-container .monaco-icon-label.file-icon": "padding-bottom: 6px !important",
+    ".sidebar .title-label h2": "line-height: 2.8 !important",
+    ".monaco-editor .scroll-decoration": "display: none !important",
+    ".monaco-scrollable-element > .shadow.top": "display: none !important",
+    ".editor-group-watermark": {
+      "font-size": "15px !important"
+    }
+  },
+  "apc.font.family": "Jetbrains Mono",
+  "apc.listRow": {
+    "lists": ["quick-input-list", "results"],
+    "height": 30
+  },
+  "apc.imports": ["file://${userHome}/Library/Application Support/Cursor/User/welcomePage.js"],
+  "window.titleBarStyle": "native",
+  "security.workspace.trust.untrustedFiles": "open",
+  "quickgrep.preview": true,
+  "workbench.editor.enablePreviewFromCodeNavigation": true,
+  "workbench.editor.enablePreviewFromQuickOpen": true,
+  "find-it-faster.general.openFileInPreviewEditor": true,
+  "terminal.integrated.tabs.enabled": false,
+  "autoHide.hideOnDebug": false,
+  "workbench.editor.tabActionCloseVisibility": false,
+  "workbench.editor.empty.hint": "hidden",
+  "editor.fontSize": 12.5,
+  "vitest.rootConfig": "./test/vitest.config.ts, vite.config.ts",
+  "gitlab.duoChat.enabled": false,
+  "editor.codeLensFontFamily": "Jetbrains Mono",
+  "editor.experimentalInlineEdit.fontFamily": "Jetbrains Mono",
+  "editor.inlayHints.fontFamily": "Jetbrains Mono",
+  "editor.inlineSuggest.fontFamily": "Jetbrains Mono",
+  "debug.console.fontFamily": "Jetbrains Mono",
+  "scm.inputFontFamily": "Jetbrains Mono",
+  "notebook.output.fontFamily": "Jetbrains Mono",
+  "chat.editor.fontFamily": "Jetbrains Mono",
+  "errorLens.fontFamily": "Jetbrains Mono",
+  "gitlens.blame.fontFamily": "Jetbrains Mono",
+  "window.commandCenter": false,
+  "workbench.panel.opensMaximized": "always",
+  "apc.menubar.compact": true,
+  "apc.activityBar": {},
+  "gitlens.statusBar.alignment": "left",
+  "gitlens.graph.layout": "editor",
+  "gitlens.cloudPatches.experimental.layout": "editor",
+  "gitlens.autolinks": [
+    {
+      "prefix": "API-2385",
+      "url": "https://dnm-radiofrance.atlassian.net/browse/API-2385"
+    }
+  ],
+  "vitest.nodeEnv": {},
+  "errorLens.codeLensEnabled": true,
+  "window.customTitleBarVisibility": "never",
+  "github.copilot.editor.enableAutoCompletions": true,
+  "workbench.colorTheme": "Night Owl",
+  "animations.Command-Palette": "Slide",
+  "animations.Tabs": "None",
+  "animations.Scrolling": "None",
+  "animations.Enabled": true,
+  "wallpaper-setting.wallpaper.filePath": "file://${userHome}/Downloads/437004 3840x2160.jpg",
+  "workbench.iconTheme": "bearded-icons",
+  "explorer.openEditors.visible": 1,
+  "testing.openTesting": "neverOpen",
+  "gitlens.ai.experimental.model": "openai:gpt-4o",
+  "gitlens.graph.dateStyle": "absolute",
+  "github.copilot-labs.showTestGenerationLenses": true,
+  "testExplorerDiagnostics.show.passed": true,
+  "find-it-faster.general.useTerminalInEditor": true,
+  "find-it-faster.advanced.disableStartupChecks": true,
+  "find-it-faster.findWithinFiles.previewWindowConfig": "right:55%:wrap",
+  "find-it-faster.findWithinFiles.previewCommand": "bat --style=numbers --color=always --line-range=:100 {1}  --highlight-line {2}",
+  "find-it-faster.general.searchCurrentWorkingDirectory": "never",
+  "find-it-faster.general.clearTerminalAfterUse": false,
+  "find-it-faster.findWithinFiles.fuzzRipgrepQuery": true,
+  "find-it-faster.general.killTerminalAfterUse": true,
+  "typescript.tsserver.experimental.enableProjectDiagnostics": true,
+  "window.density.editorTabHeight": "compact",
+  "eslint.lintTask.enable": true,
+  "eslint.enable": true,
+  "testExplorer.useNativeTesting": true,
+  "testing.automaticallyOpenPeekView": "failureAnywhere",
+  "testing.showAllMessages": true,
+  "testExplorer.addToEditorContextMenu": true,
+  "gitlens.launchpad.indicator.openInEditor": true,
+  "gitlens.experimental.cloudIntegrations.github.enabled": true,
+  "terminal.integrated.suggest.builtinCompletions": {
+    "pwshCode": true,
+    "pwshGit": true
+  },
+
+  "terminal.integrated.suggest.enabled": true,
+  "workbench.externalBrowser": "Arc",
+  "workbench.activityBar.location": "right",
+  "cursor.cpp.disabledLanguages": [
+    "scminput"
+  ],
+  "whichkey.bindings": [
+    {
+      "key": "q",
+      "name": "Close Window",
+      "type": "command",
+      "command": "workbench.action.closeActiveEditor"
+    },
+    {
+      "key": "/",
+      "name": "Comment",
+      "type": "command",
+      "command": "editor.action.commentLine"
+    },
+    {
+      "key": ".",
+      "name": "Open Settings",
+      "type": "command",
+      "command": "workbench.action.openSettings"
+    },
+    {
+      "key": ";",
+      "name": "Show All Commands",
+      "type": "command",
+      "command": "workbench.action.showCommands"
+    },
+    {
+      "key": "=",
+      "name": "Balance Editor Groups",
+      "type": "command",
+      "command": "workbench.action.evenEditorWidths"
+    },
+    {
+      "key": "e",
+      "name": "Explorer",
+      "type": "command",
+      "command": "workbench.action.toggleSidebarVisibility"
+    },
+    {
+      "key": "h",
+      "name": "Split Editor Below",
+      "type": "command",
+      "command": "workbench.action.splitEditorDown"
+    },
+    {
+      "key": "n",
+      "name": "Clear Search Highlight",
+      "type": "command",
+      "command": "search.action.clearSearchResults"
+    },
+    {
+      "key": "o",
+      "name": "Open File",
+      "type": "command",
+      "command": "workbench.action.files.openFile"
+    },
+    {
+      "key": "p",
+      "name": "Go to File...",
+      "type": "command",
+      "command": "workbench.action.quickOpen"
+    },
+    {
+      "key": "F",
+      "name": "Quick Fix",
+      "type": "command",
+      "command": "editor.action.quickFix"
+    },
+    {
+      "key": "T",
+      "name": "Toggle Highlight Tree-Sitter",
+      "type": "command",
+      "command": "editor.tokenColorCustomizations"
+    },
+    {
+      "key": "u",
+      "name": "Undo",
+      "type": "command",
+      "command": "undo"
+    },
+    {
+      "key": "v",
+      "name": "Split Editor Right",
+      "type": "command",
+      "command": "workbench.action.splitEditorRight"
+    },
+    {
+      "key": "W",
+      "name": "Switch Editor",
+      "type": "command",
+      "command": "workbench.action.nextEditor"
+    },
+    {
+      "key": "z",
+      "name": "Toggle Zen Mode",
+      "type": "command",
+      "command": "workbench.action.toggleZenMode"
+    },
+    {
+      "key": "c",
+      "name": "Close Editor",
+      "type": "command",
+      "command": "workbench.action.closeActiveEditor"
+    },
+    {
+      "key": "?",
+      "name": "Search in Files",
+      "type": "command",
+      "command": "workbench.action.findInFiles"
+    },
+    {
+      "key": "i",
+      "name": "Terminal Operations",
+      "type": "bindings",
+      "bindings": [
+        {
+          "key": "b",
+          "name": "Split Terminal Bottom",
+          "type": "command",
+          "command": "workbench.action.terminal.split"
+        },
+        {
+          "key": "l",
+          "name": "Split Terminal Right",
+          "type": "command",
+          "command": "workbench.action.terminal.splitInActiveWorkspace"
+        },
+        {
+          "key": "c",
+          "name": "Close Terminal",
+          "type": "command",
+          "command": "workbench.action.terminal.kill"
+        }
+      ]
+    },
+    {
+      "key": "a",
+      "name": "Actions",
+      "type": "bindings",
+      "bindings": [
+        {
+          "key": "c",
+          "name": "Toggle Colorizer",
+          "type": "command",
+          "command": "extension.colorize.toggle"
+        },
+        {
+          "key": "e",
+          "name": "Open Explorer",
+          "type": "command",
+          "command": "workbench.view.explorer"
+        },
+        {
+          "key": "h",
+          "name": "Remove Highlight",
+          "type": "command",
+          "command": "search.action.clearSearchResults"
+        },
+        {
+          "key": "l",
+          "name": "Start Live Server",
+          "type": "command",
+          "command": "liveServer.start"
+        },
+        {
+          "key": "L",
+          "name": "Stop Live Server",
+          "type": "command",
+          "command": "liveServer.stop"
+        },
+        {
+          "key": "m",
+          "name": "Markdown Preview",
+          "type": "command",
+          "command": "markdown.showPreview"
+        },
+        {
+          "key": "M",
+          "name": "Close Markdown Preview",
+          "type": "command",
+          "command": "markdown.preview.close"
+        },
+        {
+          "key": "n",
+          "name": "Toggle Line Numbers",
+          "type": "command",
+          "command": "editor.action.toggleRenderLineNumbers"
+        },
+        {
+          "key": "s",
+          "name": "Surround with Quotes",
+          "type": "command",
+          "command": "editor.action.insertSnippet",
+          "args": {
+            "snippet": "\"${TM_SELECTED_TEXT}\""
+          }
+        },
+        {
+          "key": "r",
+          "name": "Toggle Relative Line Numbers",
+          "type": "command",
+          "command": "editor.action.toggleRenderRelativeLineNumbers"
+        },
+        {
+          "key": "t",
+          "name": "Toggle Terminal",
+          "type": "command",
+          "command": "workbench.action.terminal.toggleTerminal"
+        },
+        {
+          "key": "v",
+          "name": "Open REPL",
+          "type": "command",
+          "command": "extension.REPL"
+        },
+        {
+          "key": "V",
+          "name": "Close REPL",
+          "type": "command",
+          "command": "workbench.action.terminal.kill"
+        },
+        {
+          "key": "w",
+          "name": "Trim Trailing Whitespace",
+          "type": "command",
+          "command": "editor.action.trimTrailingWhitespace"
+        }
+      ]
+    },
+    // Additional key groups and bindings can be added here.
+    {
+      "key": "b",
+      "name": "Buffer Operations",
+      "type": "bindings",
+      "bindings": [
+        {
+          "key": ">",
+          "name": "Move Editor Right",
+          "type": "command",
+          "command": "workbench.action.moveEditorToNextGroup"
+        },
+        {
+          "key": "<",
+          "name": "Move Editor Left",
+          "type": "command",
+          "command": "workbench.action.moveEditorToPreviousGroup"
+        },
+        {
+          "key": "1",
+          "name": "Focus First Editor Group",
+          "type": "command",
+          "command": "workbench.action.focusFirstEditorGroup"
+        },
+        // Add similar bindings for other numbers
+        {
+          "key": "b",
+          "name": "Pick Editor",
+          "type": "command",
+          "command": "workbench.action.quickOpen"
+        },
+        {
+          "key": "d",
+          "name": "Close Editor",
+          "type": "command",
+          "command": "workbench.action.closeActiveEditor"
+        },
+        {
+          "key": "D",
+          "name": "Order by Directory",
+          "type": "command",
+          "command": "workbench.files.action.sortOrderDirectoriesFirst"
+        },
+        {
+          "key": "f",
+          "name": "First Editor",
+          "type": "command",
+          "command": "workbench.action.firstEditorInGroup"
+        },
+        {
+          "key": "l",
+          "name": "Last Editor",
+          "type": "command",
+          "command": "workbench.action.lastEditorInGroup"
+        },
+        {
+          "key": "n",
+          "name": "Next Editor",
+          "type": "command",
+          "command": "workbench.action.nextEditor"
+        },
+        {
+          "key": "p",
+          "name": "Previous Editor",
+          "type": "command",
+          "command": "workbench.action.previousEditor"
+        },
+        {
+          "key": "?",
+          "name": "Show Editors",
+          "type": "command",
+          "command": "workbench.action.showAllEditors"
+        }
+      ]
+    },
+    {
+      "key": "d",
+      "name": "Debugging",
+      "type": "bindings",
+      "bindings": [
+        {
+          "key": "l",
+          "name": "Start Debug",
+          "type": "command",
+          "command": "workbench.action.debug.start"
+        },
+        {
+          "key": "b",
+          "name": "Toggle Breakpoint",
+          "type": "command",
+          "command": "editor.debug.action.toggleBreakpoint"
+        },
+        {
+          "key": "c",
+          "name": "Run to Cursor",
+          "type": "command",
+          "command": "editor.debug.action.runToCursor"
+        },
+        {
+          "key": "d",
+          "name": "Continue",
+          "type": "command",
+          "command": "workbench.action.debug.continue"
+        },
+        {
+          "key": "f",
+          "name": "Add Function Breakpoint",
+          "type": "command",
+          "command": "workbench.action.debug.addFunctionBreakpoint"
+        },
+        {
+          "key": "m",
+          "name": "Maximize Window",
+          "type": "command",
+          "command": "workbench.action.maximizeEditor"
+        },
+        {
+          "key": "o",
+          "name": "Step Over",
+          "type": "command",
+          "command": "workbench.action.debug.stepOver"
+        },
+        {
+          "key": "O",
+          "name": "Step Out",
+          "type": "command",
+          "command": "workbench.action.debug.stepOut"
+        },
+        {
+          "key": "i",
+          "name": "Step Into",
+          "type": "command",
+          "command": "workbench.action.debug.stepInto"
+        },
+        {
+          "key": "p",
+          "name": "Pause",
+          "type": "command",
+          "command": "workbench.action.debug.pause"
+        },
+        {
+          "key": "r",
+          "name": "Restart",
+          "type": "command",
+          "command": "workbench.action.debug.restart"
+        },
+        {
+          "key": "s",
+          "name": "Stop",
+          "type": "command",
+          "command": "workbench.action.debug.stop"
+        }
+      ]
+    },
+    {
+      "key": "g",
+      "name": "Git",
+      "type": "bindings",
+      "bindings": [
+        {
+          "key": "a",
+          "name": "Add All",
+          "type": "command",
+          "command": "git.add"
+        },
+        {
+          "key": "A",
+          "name": "Git Actions",
+          "type": "command",
+          "command": "gitlens.views.repositories"
+        },
+        {
+          "key": "b",
+          "name": "Blame",
+          "type": "command",
+          "command": "gitlens.blame"
+        },
+        {
+          "key": "B",
+          "name": "Browse Repository",
+          "type": "command",
+          "command": "gitlens.showCommitSearch"
+        },
+        {
+          "key": "c",
+          "name": "Commit",
+          "type": "command",
+          "command": "git.commit"
+        },
+        {
+          "key": "d",
+          "name": "Diff",
+          "type": "command",
+          "command": "gitlens.diffWithPrevious"
+        },
+        {
+          "key": "D",
+          "name": "Diff Split",
+          "type": "command",
+          "command": "gitlens.diffWithPreviousInSplit"
+        }
+      ]
+    },
+    {
+      "key": "s",
+      "name": "Search",
+      "type": "bindings",
+      "bindings": [
+        {
+          "key": "/",
+          "name": "Search History",
+          "type": "command",
+          "command": "workbench.action.openPreviousEditorFromHistory"
+        },
+        {
+          "key": ";",
+          "name": "Show All Commands",
+          "type": "command",
+          "command": "workbench.action.showCommands"
+        },
+        {
+          "key": "a",
+          "name": "Search Text (Ag)",
+          "type": "command",
+          "command": "workbench.action.findInFiles"
+        },
+        {
+          "key": "b",
+          "name": "Search Current Buffer",
+          "type": "command",
+          "command": "workbench.action.findInActiveEditor"
+        },
+        {
+          "key": "B",
+          "name": "List Open Buffers",
+          "type": "command",
+          "command": "workbench.action.showAllEditors"
+        },
+        {
+          "key": "c",
+          "name": "Search Commits",
+          "type": "command",
+          "command": "gitlens.showQuickCommitFileHistory"
+        },
+        {
+          "key": "C",
+          "name": "Search Buffer Commits",
+          "type": "command",
+          "command": "gitlens.showQuickFileHistory"
+        },
+        {
+          "key": "d",
+          "name": "Directory Files",
+          "type": "command",
+          "command": "workbench.action.quickOpen"
+        },
+        {
+          "key": "f",
+          "name": "Search Files",
+          "type": "command",
+          "command": "workbench.action.quickOpen"
+        },
+        {
+          "key": "g",
+          "name": "Git Files",
+          "type": "command",
+          "command": "gitlens.showQuickRepoStatus"
+        },
+        {
+          "key": "G",
+          "name": "Search Modified Git Files",
+          "type": "command",
+          "command": "gitlens.showQuickRepoHistory"
+        },
+        {
+          "key": "h",
+          "name": "File History",
+          "type": "command",
+          "command": "gitlens.showQuickFileHistory"
+        },
+        {
+          "key": "H",
+          "name": "Command History",
+          "type": "command",
+          "command": "workbench.action.showCommands"
+        },
+        {
+          "key": "l",
+          "name": "Lines",
+          "type": "command",
+          "command": "workbench.action.gotoLine"
+        },
+        {
+          "key": "m",
+          "name": "Marks",
+          "type": "command",
+          "command": "bookmarks.jumpToNext"
+        },
+        {
+          "key": "M",
+          "name": "Maps",
+          "type": "command",
+          "command": "workbench.action.keybindingsReference"
+        },
+        {
+          "key": "p",
+          "name": "Helptags",
+          "type": "command",
+          "command": "workbench.action.showAllSymbols"
+        },
+        {
+          "key": "P",
+          "name": "Project Tags",
+          "type": "command",
+          "command": "workbench.action.showAllSymbols"
+        },
+        {
+          "key": "q",
+          "name": "QuickFix List",
+          "type": "command",
+          "command": "workbench.actions.view.problems"
+        },
+        {
+          "key": "s",
+          "name": "Snippets",
+          "type": "command",
+          "command": "workbench.action.insertSnippet"
+        },
+        {
+          "key": "S",
+          "name": "Color Schemes",
+          "type": "command",
+          "command": "workbench.action.selectTheme"
+        },
+        {
+          "key": "t",
+          "name": "Text Rg",
+          "type": "command",
+          "command": "find-it-faster.findWithinFiles"
+        },
+        {
+          "key": "T",
+          "name": "Buffer Tags",
+          "type": "command",
+          "command": "workbench.action.gotoSymbol"
+        },
+        {
+          "key": "w",
+          "name": "Search Windows",
+          "type": "command",
+          "command": "workbench.action.quickOpen"
+        },
+        {
+          "key": "y",
+          "name": "File Types",
+          "type": "command",
+          "command": "workbench.action.showEditorFileType"
+        },
+        {
+          "key": "z",
+          "name": "FZF",
+          "type": "command",
+          "command": "extension.fzf-quick-open"
+        }
+      ]
+    },
+    {
+      "key": "t",
+      "name": "Terminal",
+      "type": "bindings",
+      "bindings": [
+        {
+          "key": ";",
+          "name": "New Terminal",
+          "type": "command",
+          "command": "workbench.action.terminal.toggleTerminal"
+        },
+        {
+          "key": "q",
+          "name": "Close Terminal",
+          "type": "command",
+          "command": "workbench.action.terminal.kill"
+        },
+        {
+          "key": "n",
+          "name": "New Terminal",
+          "type": "command",
+          "command": "workbench.action.terminal.new"
+        },
+        {
+          "key": "s",
+          "name": "Split Terminal",
+          "type": "command",
+          "command": "workbench.action.terminal.split"
+        },
+        {
+          "key": "f",
+          "name": "FZF in Terminal",
+          "type": "command",
+          "command": "workbench.action.terminal.sendSequence",
+          "args": { "text": "fzf\\u000D" }
+        },
+        {
+          "key": "g",
+          "name": "Open Git in Terminal",
+          "type": "command",
+          "command": "workbench.action.terminal.sendSequence",
+          "args": { "text": "lazygit\\u000D" }
+        },
+        {
+          "key": "d",
+          "name": "Docker in Terminal",
+          "type": "command",
+          "command": "workbench.action.terminal.sendSequence",
+          "args": { "text": "lazydocker\\u000D" }
+        },
+        {
+          "key": "n",
+          "name": "Node.js REPL",
+          "type": "command",
+          "command": "workbench.action.terminal.sendSequence",
+          "args": { "text": "node\\u000D" }
+        },
+        {
+          "key": "p",
+          "name": "Python REPL",
+          "type": "command",
+          "command": "workbench.action.terminal.sendSequence",
+          "args": { "text": "python\\u000D" }
+        },
+        {
+          "key": "m",
+          "name": "NPM Terminal",
+          "type": "command",
+          "command": "workbench.action.terminal.sendSequence",
+          "args": { "text": "npm start\\u000D" }
+        },
+        {
+          "key": "r",
+          "name": "Ranger File Manager",
+          "type": "command",
+          "command": "workbench.action.terminal.sendSequence",
+          "args": { "text": "ranger\\u000D" }
+        },
+        {
+          "key": "t",
+          "name": "Toggle Terminal",
+          "type": "command",
+          "command": "workbench.action.terminal.toggleTerminal"
+        },
+        {
+          "key": "y",
+          "name": "Top System Monitor",
+          "type": "command",
+          "command": "workbench.action.terminal.sendSequence",
+          "args": { "text": "top\\u000D" }
+        },
+        {
+          "key": "s",
+          "name": "Split Terminal",
+          "type": "command",
+          "command": "workbench.action.terminal.split"
+        }
+      ]
+    }
+  ],
+  "zenMode.hideActivityBar": false,
+  "cursor.chat.premiumChatAutoScrollWhenAtBottom": true,
+  "cursor.chat.showSuggestedFiles": true,
+  "cursor.chat.smoothStreaming": true,
+  "notebook.experimental.cellChat": true,
+  "notebook.experimental.generate": true,
+  "customCSS.content": ".monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab { display: none !important; } .monaco-workbench .part.editor > .content .editor-group-container > .editor-group-watermark { display: none; } .monaco-workbench .part.editor > .content .editor-group-container > .editor-group-watermark + div::before { content: \"**  **                _                     \\A|  \\\\/  |              (_)                    \\A| \\\\  / | ** *****  *** ___ * ***_**  *   * __ \\A| |\\\\/| |/ ` |/ _/ __| | '_ ` *  | | | / *_|\\A| |  | | (_| | (__\\\\__ \\\\ | | | | | | |_| \\\\__ \\\\ \\A|_|  |_|\\\\__,_|\\\\___|___/_|_| |_| |_|\\\\__,_|___/\\A                     By sansyrox a.k.a TLS(The Leader Supreme)\"; white-space: pre; font-family: monospace; font-size: 12px; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); }",
+  "projectManager.sortList": "Name",
+  "projectManager.any.baseFolders": ["~"],
+  "projectManager.any.maxDepthRecursion": 1,
+  "projectManager.git.baseFolders": ["~/Blog", "~/Code"],
+  "projectManager.git.maxDepthRecursion": 2,
+  "projectManager.any.ignoredFolders": [
+    "node_modules",
+    "out",
+    "typings",
+    "test"
+  ],
+  "projectManager.showProjectNameInStatusBar": true,
+  "projectManager.codeOutputChannel": "log",
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<space>"],
+      "commands": ["whichkey.show"]
+    },
+    {
+      "before": ["x"],
+      "after": ["\"", "_", "x"]
+    },
+    {
+      "before": ["d"],
+      "after": ["\"", "_", "d"]
+    },
+    {
+      "before": ["c"],
+      "after": ["\"", "_", "c"]
+    },
+    {
+      "before": ["X"],
+      "after": ["\"", "_", "X"]
+    },
+    {
+      "before": ["D"],
+      "after": ["\"", "_", "D"]
+    },
+    {
+      "before": ["C"],
+      "after": ["\"", "_", "C"]
+    }
+  ],
+  "vim.visualModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<space>"],
+      "commands": ["whichkey.show"]
+    },
+    {
+      "before": ["P"],
+      "after": ["\"", "_", "d", "P"]
+    },
+    {
+      "before": ["p"],
+      "after": ["\"", "_", "d", "p"]
+    },
+    {
+      "before": ["x"],
+      "after": ["\"", "_", "x"]
+    },
+    {
+      "before": ["d"],
+      "after": ["\"", "_", "d"]
+    },
+    {
+      "before": ["c"],
+      "after": ["\"", "_", "c"]
+    },
+    {
+      "before": ["X"],
+      "after": ["\"", "_", "X"]
+    },
+    {
+      "before": ["D"],
+      "after": ["\"", "_", "D"]
+    },
+    {
+      "before": ["C"],
+      "after": ["\"", "_", "C"]
+    }
+  ],
+  "vim.useSystemClipboard": true
+}
+

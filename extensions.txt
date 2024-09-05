@@ -1,0 +1,16 @@
+FaroSystemAppender constructor
+alefragnani.project-manager
+angelmaneuver.wallpaper-setting
+donjayamanne.githistory
+drcika.apc-extension
+eamodio.gitlens
+ms-python.debugpy
+ms-python.python
+ms-python.vscode-pylance
+ms-vscode-remote.remote-containers
+ms-vscode.remote-explorer
+ms-vscode.remote-server
+sdras.night-owl
+tomrijndorp.find-it-faster
+vscodevim.vim
+vspacecode.whichkey
